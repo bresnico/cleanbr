@@ -16,7 +16,7 @@ plotting_groups <- function (df, date, group, var) {
     ggplot() +
     aes_string(x = date, y = var[i], color = group) +
     geom_boxplot(alpha = .5, outlier.colour = NA) +
-    geom_jitter(size = 5, alpha = .5, width = 0.3, position = position_jitterdodge(dodge.width=.7, jitter.width = .2)) +
+    geom_jitter(size = 5, alpha = .5, position = position_jitterdodge(dodge.width=.7, jitter.width = .2)) +
     stat_summary(fun = mean, geom = "point", size = 3, shape = 4) +
     stat_summary(fun = mean, aes_string(group = group), geom = "line") +
     labs(title = paste0("Mesure  ", var[i]), y = "Score") +
