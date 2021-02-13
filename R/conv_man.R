@@ -7,8 +7,7 @@
 #' @param key an integer object
 #'
 #' @return a dataframe
-#' @import magrittr
-#' @import dplyr
+#' @import magrittr dplyr
 #' @export
 #'
 #' @examples

@@ -3,6 +3,7 @@
 #' @param df a dataframe
 #' @param date a character object
 #' @param var a character vector
+#' @importFrom ggplot2 ggplot aes_string geom_jitter stat_summary labs theme aes element_text
 #'
 #' @return a plot
 #' @export

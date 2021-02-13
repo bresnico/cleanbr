@@ -4,7 +4,7 @@
 #' @param date a character object
 #' @param group a character object
 #' @param var a character vector
-#'
+#' @importFrom ggplot2 geom_boxplot position_jitterdodge scale_color_brewer
 #' @return a plot
 #' @export
 #'

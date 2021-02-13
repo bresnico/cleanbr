@@ -3,7 +3,6 @@
 #' @param df a dataframe
 #' @param id a column name
 #' @param date a column name
-#'
 #' @return a dataframe
 #' @export
 #'
