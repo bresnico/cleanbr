@@ -1,0 +1,15 @@
+Package: cleanbr
+Title: Custom Functions For Cleaning Custom DataFrames
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Nicolas",
+           family = "Bressoud",
+           role = c("aut", "cre"),
+           email = "info@nicolasbressoud.ch",
+           comment = c(ORCID = "0000-0001-9464-7427"))
+Description: This package contains some basic functions to optimize the cleaning of the data. The data comes from bases built from a specific grammar. More info under nicolasbressoud.ch.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
