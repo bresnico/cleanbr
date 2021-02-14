@@ -5,9 +5,9 @@
 #' @param x a character object
 #' @param items a character vector
 #' @param key an integer object
-#'
+#' @importFrom dplyr mutate pull
+#' @importFrom utils globalVariables
 #' @return a dataframe
-#' @import magrittr dplyr
 #' @export
 #'
 #' @examples
@@ -17,7 +17,7 @@ conv_man <- function (df, x, items, key) {
   for (i in seq_along(items)) {
     temp_item <- paste0(x,"_",items[[i]])
     df <- df %>%
-      mutate("{temp_item}" := key - pull(df,temp_item))
+      dplyr::mutate("{temp_item}" := key - pull(df,temp_item))
   }
   df
 }

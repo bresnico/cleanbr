@@ -3,6 +3,8 @@
 #' @param df a dataframe
 #' @param id a column name
 #' @param date a column name
+#' @importFrom tidyr drop_na
+#' @importFrom dplyr arrange group_by count filter ungroup n
 #' @return a dataframe
 #' @export
 #'

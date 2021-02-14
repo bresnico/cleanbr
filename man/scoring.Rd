@@ -17,7 +17,3 @@ a dataframe
 \description{
 Automatically create scores for many categories of items
 }
-\examples{
-d_conv <- data.frame(id=c("josette", "paul", "louis"), be8_1=c(1,2,5), be8_2=c(2,3,5),be8_3=c(1,5,8))
-scoring(d_conv,c("be8","emo4"))
-}
